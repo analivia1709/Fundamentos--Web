@@ -1,0 +1,57 @@
+/* Estilo da pagina index.html*/
+
+        .center{
+        text-align: center;
+        }
+
+        .justify{
+            text-align: justify;
+        }
+
+
+        .container{
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu li{
+            display: inline;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .menu li a{
+            text-decoration: none;
+            color: rgb(98, 31, 160);
+        }
+
+        .menu li a:hover{
+            color: coral;
+        }
+
+        .p-20{
+            padding: 30px;
+        }
+
+        .br-30{
+          border-radius: 20%;
+        }
+
+        .tm-social{
+            width:35px ;
+            height:35px ;
+            padding:5px ;
+
+        }
+        .mb-50{
+
+            margin-bottom:50px;
+        }
+/*Estilo da pagina contyato.html*/
+ 
+        .ml-50{
+            margin-left: 50px;
+        }
